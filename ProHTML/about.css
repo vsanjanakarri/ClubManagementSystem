@@ -1,0 +1,10 @@
+body
+{
+background-attachment: fixed;
+}
+a{
+text-decoration:none;
+color:darkblue;
+}
+td
+{float:left;}

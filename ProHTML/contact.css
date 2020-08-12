@@ -1,0 +1,16 @@
+a{
+text-decoration:none;
+color:darkblue;
+}
+body
+{
+background-attachment: fixed;
+}
+b
+{
+text-tranform:uppercase;
+color:red;
+text-decoration:underline;
+}
+td
+{float:left;}

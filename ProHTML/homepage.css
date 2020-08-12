@@ -1,0 +1,31 @@
+a{
+text-decoration:none;
+color:white;
+}
+td 
+{float:left;
+ background: linear-gradient(to bottom, #0066cc 41%, #99ccff 99%);
+ }
+b{
+font-size:100px;
+text-shadow: 4px 3px#66d9ff;
+letter-spacing:10px;
+cursor:crosshair;
+}
+body
+{ 
+background-attachment: fixed;
+}
+.flash {
+   animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: darkblue;}
+}
